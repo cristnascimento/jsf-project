@@ -119,6 +119,18 @@ You can do changes on your `.xhtml` files and see them without restarting the se
 
 This is really simple. Just Go to `File > Export > [choose .WAR]`
 
+## New Files
+
+After importing the maven project to eclipse and running the application, eclipse creates new files:
+
+```
+.classpath
+.project
+.settings
+```
+
+And it also creates a new directory `bin` for the generated classes. Make sure of including this directory into your `gitignore` file.
+
 ## Conclusion 
 
 You have completed the JavaServer Faces with Eclipse on Windows Tutorial.
