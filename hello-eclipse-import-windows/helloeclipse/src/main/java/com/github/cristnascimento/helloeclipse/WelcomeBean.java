@@ -1,3 +1,5 @@
+package com.github.cristnascimento.helloeclipse;
+
 import javax.faces.bean.ManagedBean;
 
 @ManagedBean(name = "welcome", eager = true)
